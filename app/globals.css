@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* .tweet-header_header__CXzdi,  */
+.tweet-info_info__ll_kH,
+.tweet-actions_actions__UDw7H,
+.tweet-replies_replies__PUxl8 {
+    display: none !important;
+}
+
+.tweet-container_root__0rJLq{
+    margin: 0 !important;
+}
