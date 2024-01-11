@@ -25,8 +25,8 @@ const TwitterCard: React.FC<TwitterCardProps> = () => {
     };
 
     return (
-        <div className='w-10/12 flex flex-col'>
-            <form className='flex flex-col gap-1 w-5/12' onSubmit={handleCreateTweet}>
+        <div className='w-6/12 flex flex-col'>
+            <form className='flex flex-col gap-1' onSubmit={handleCreateTweet}>
                 <input
                     type="text"
                     placeholder='Your Place'
